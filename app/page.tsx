@@ -40,7 +40,7 @@ export default function Home() {
 
       <section className="contact-section" id="contact"><div className="shell contact-inner"><div className="section-label">04 / YOUR NEXT INTERN?</div><h2>Let’s make something<br /><em>meaningful.</em></h2><p>I’m looking for a digital marketing internship where I can learn, contribute, and grow. Have an opportunity or just want to say hello?</p><a className="button button-light" href="mailto:hello@example.com">Let’s start a conversation <Arrow diagonal /></a><span className="contact-spark">✳</span></div></section>
 
-      <footer className="footer shell"><Link className="wordmark" href="/">s<span>.</span></Link><span>MADE WITH CURIOSITY · © 2026 SAMANA</span><div><a href="mailto:hello@example.com">EMAIL</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN ↗</a></div></footer>
+      <footer className="footer shell"><Link className="wordmark" href="/">s<span>.</span></Link><span>MADE WITH CURIOSITY · © 2026 SAMANA</span><div><a href="mailto:hello@example.com">EMAIL</a><a href="https://www.linkedin.com/in/samanabhandari/" target="_blank" rel="noreferrer">LINKEDIN ↗</a></div></footer>
     </main>
   );
 }

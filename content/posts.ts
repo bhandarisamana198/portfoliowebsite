@@ -11,6 +11,21 @@ export type Post = {
 // Add new learning notes here. Each entry becomes a page at /blog/[slug].
 export const posts: Post[] = [
   {
+    slug: "the-thinking-behind-meta-ad-management",
+    title: "The thinking behind Meta ad management",
+    date: "September 27, 2026",
+    category: "PAID SOCIAL",
+    readingTime: "4 MIN READ",
+    excerpt: "Managing Meta ads is more than pressing publish. It starts with a clear goal, thoughtful creative, and learning from the results.",
+    content: [
+      "I’m learning that good Meta ad management starts before opening Ads Manager. The first question is not what button to press, but what the campaign needs to achieve. Is the goal to introduce a brand to new people, bring visitors to a site, or encourage a specific action? A clear goal gives the rest of the decisions a reason.",
+      "A campaign is organized in three levels: the campaign holds the overall objective, ad sets organize delivery choices such as audience, placements, and budget, and ads contain the creative people see. Thinking through those layers helps keep a campaign understandable and makes it easier to see which part may need attention.",
+      "The creative deserves as much care as the settings. A useful ad should quickly show who it is for, what it offers, and what someone can do next. Images, video, headlines, and copy can all change how a message lands, so I’m interested in testing a small number of purposeful variations instead of changing everything at once.",
+      "Once a campaign is running, the numbers need to be read in context. Impressions and clicks can show whether an ad is getting attention, while the campaign’s chosen outcome helps show whether that attention is useful. I want to compare results with the original goal, check that tracking is working, and give the data enough context before making a change.",
+      "My main takeaway so far: managing ads is a cycle of planning, testing, observing, and improving. A clear objective keeps the work focused, and careful measurement turns each campaign into a chance to learn what resonates with people.",
+    ],
+  },
+  {
     slug: "my-own-corner-of-the-internet",
     title: "A little corner of the internet to call my own",
     date: "September 27, 2026",

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { posts } from "@/content/posts";
 
 const Arrow = ({ diagonal = false }: { diagonal?: boolean }) => (
@@ -24,8 +25,9 @@ export default function Home() {
           <div className="hero-actions"><a className="button button-dark" href="#contact">Let’s work together <Arrow diagonal /></a><a className="text-link" href="#work">Explore my interests <Arrow /></a></div>
           <div className="hero-note"><span className="note-mark">✳</span><span>Currently learning<br /><strong>SEO · Content · Social</strong></span></div>
         </div>
-        <div className="hero-art" aria-label="Abstract colorful editorial artwork" role="img">
-          <div className="art-orbit orbit-one"/><div className="art-orbit orbit-two"/><div className="art-sun"/><div className="art-spark">✳</div><div className="art-word">ideas<br />into<br /><i>impact.</i></div><div className="art-caption">GOOD WORK<br />STARTS WITH CURIOSITY</div><div className="art-sticker">GROW<br />WITH<br />INTENTION ↗</div>
+        <div className="hero-art">
+          <Image className="profile-photo" src="/samana-profile.png" alt="Portrait of Samana" fill priority sizes="(max-width: 800px) 100vw, 48vw" />
+          <div className="photo-caption"><span>HELLO, I’M SAMANA</span><span>CURIOUS BY NATURE <i>✳</i></span></div>
         </div>
         <div className="hero-bottom"><span>BASED IN NEPAL</span><span>STUDENT BY DAY · STORYTELLER ALWAYS</span><a href="#about">SCROLL TO EXPLORE ↓</a></div>
       </section>

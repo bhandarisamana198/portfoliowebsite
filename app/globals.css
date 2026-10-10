@@ -29,3 +29,6 @@
 .about-photo{transition:transform .28s ease,filter .28s ease}.about-photo:hover{transform:scale(1.025);filter:saturate(1.08)}
 .skills-section-title{color:#282321}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+.projects-title{font-size:54px!important;line-height:1.08!important;letter-spacing:-2px!important;margin:0!important}
+@media(max-width:800px){.projects-title{font-size:46px!important}}
+@media(max-width:520px){.projects-title{font-size:40px!important}}

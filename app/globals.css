@@ -13,3 +13,19 @@
 .eyebrow .label-highlight{padding:3px 6px}
 .about-copy .about-section-title{font:700 40px/1.15 var(--serif);letter-spacing:-1px;margin:0 0 22px;color:var(--ink)}
 @media(max-width:520px){.about-copy .about-section-title{font-size:34px}}
+/* Higher contrast and clearer interaction states */
+:root{--muted:#57514d;--line:#d8cec8}
+.body-copy,.section-heading>p,.skill-card p,.project-card p,.timeline-item p{color:#4e514c}
+.section-label,.skill-index,.skill-tag,.post-top,.post-bottom{color:#56584f}
+.label-highlight{color:#44251f;background:#e8c9bf}
+.skill-lilac{background:#e4d8d0}.skill-yellow{background:#e9d8b8}.skill-pink{background:#e8c4bd}.skill-green{background:#d8dfca}
+.skill-card,.project-card,.post-card{border:1px solid rgba(53,45,39,.12);transition:transform .22s ease,box-shadow .22s ease,background-color .22s ease}
+.skill-card:hover,.project-card:hover,.post-card:hover{transform:translateY(-5px);box-shadow:0 12px 26px rgba(50,40,34,.12)}
+.post-card:hover{filter:saturate(1.08)}
+.topbar nav a,.footer>div a,.underlined-link,.text-link{transition:color .18s ease,opacity .18s ease}
+.topbar nav a:hover,.footer>div a:hover{color:#8e5147;text-decoration:underline;text-underline-offset:4px}
+.button{box-shadow:0 2px 0 rgba(0,0,0,.12)}.button:hover{box-shadow:0 7px 18px rgba(0,0,0,.18)}
+:where(a,button,[tabindex="0"]):focus-visible{outline:3px solid #9d5e50;outline-offset:4px;border-radius:3px}
+.about-photo{transition:transform .28s ease,filter .28s ease}.about-photo:hover{transform:scale(1.025);filter:saturate(1.08)}
+.skills-section-title{color:#282321}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}

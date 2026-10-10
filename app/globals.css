@@ -7,3 +7,5 @@
 @media(max-width:800px){.project-grid{grid-template-columns:1fr}.project-card{min-height:0}.projects-section,.experience-section{padding:70px 0}}
 .about-aside{display:flex;flex-direction:column;gap:22px}.about-photo{display:block;width:100%;height:auto;max-height:340px;object-fit:cover;object-position:center 43%;border:1px solid #e8dfda;box-shadow:0 14px 35px rgba(55,39,34,.08)}
 @media(max-width:800px){.about-aside{gap:14px}.about-photo{width:min(100%,360px);max-height:340px}}
+.intro-grid{align-items:start}.about-photo{width:min(100%,360px);height:auto;aspect-ratio:1/1;max-height:none;object-fit:cover;object-position:center 43%}
+@media(max-width:800px){.about-photo{width:min(100%,360px)}}

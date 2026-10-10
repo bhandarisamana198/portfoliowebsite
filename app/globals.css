@@ -9,3 +9,5 @@
 @media(max-width:800px){.about-aside{gap:14px}.about-photo{width:min(100%,360px);max-height:340px}}
 .intro-grid{align-items:start}.about-photo{width:min(100%,360px);height:auto;aspect-ratio:1/1;max-height:none;object-fit:cover;object-position:center 43%}
 @media(max-width:800px){.about-photo{width:min(100%,360px)}}
+.label-highlight{display:inline-block;color:#8e5f56;background:#eee1dc;padding:4px 7px;border-radius:2px;letter-spacing:.8px}
+.eyebrow .label-highlight{padding:3px 6px}

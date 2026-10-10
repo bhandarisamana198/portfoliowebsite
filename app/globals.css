@@ -11,5 +11,5 @@
 @media(max-width:800px){.about-photo{width:min(100%,360px)}}
 .label-highlight{display:inline-block;color:#8e5f56;background:#eee1dc;padding:4px 7px;border-radius:2px;letter-spacing:.8px}
 .eyebrow .label-highlight{padding:3px 6px}
-.about-aside .about-section-title{font:700 30px/1.2 var(--serif);letter-spacing:-.7px;margin:0 0 8px;color:var(--ink)}
-@media(max-width:520px){.about-aside .about-section-title{font-size:27px}}
+.about-aside .about-section-title{font:700 40px/1.15 var(--serif);letter-spacing:-1px;margin:0 0 12px;color:var(--ink)}
+@media(max-width:520px){.about-aside .about-section-title{font-size:34px}}

@@ -20,7 +20,7 @@ export default function Home() {
       <section className="hero shell">
         <div className="hero-copy">
           <div className="eyebrow"><span className="status-dot" /> ASPIRING DIGITAL MARKETER · OPEN TO INTERNSHIPS</div>
-          <h1>Curious mind.<br /><span>Digital</span> marketer.</h1>
+          <h1>Creative thinker.<br /><span>Digital</span> marketer.</h1>
           <p className="hero-intro">Hi, I’m Samana Bhandari — an aspiring digital marketer building practical experience with Meta ads, social media, SEO, and content.</p>
           <div className="hero-actions"><a className="button button-dark" href="#contact">Let’s work together <Arrow diagonal /></a><a className="text-link" href="#work">Explore my interests <Arrow /></a></div>
           <div className="hero-note"><span className="note-mark">✳</span><span>Currently training<br /><strong>Meta Ads · Google Ads · SEO</strong></span></div>

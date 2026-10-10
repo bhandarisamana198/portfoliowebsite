@@ -32,3 +32,5 @@
 .projects-title{font-size:54px!important;line-height:1.08!important;letter-spacing:-2px!important;margin:0!important}
 @media(max-width:800px){.projects-title{font-size:46px!important}}
 @media(max-width:520px){.projects-title{font-size:40px!important}}
+.education-section{background:#fbf9f7;padding:92px 0 100px}
+@media(max-width:800px){.education-section{padding:70px 0}}

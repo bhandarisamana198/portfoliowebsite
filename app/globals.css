@@ -34,3 +34,6 @@
 @media(max-width:520px){.projects-title{font-size:40px!important}}
 .education-section{background:#fbf9f7;padding:92px 0 100px}
 @media(max-width:800px){.education-section{padding:70px 0}}
+.experience-content{width:min(760px,100%);margin-left:0;margin-right:auto}
+.experience-content h2{font:500 44px/1.19 var(--serif);letter-spacing:-1.5px;margin:0 0 24px}
+.experience-content h2 em{color:#a86f64}

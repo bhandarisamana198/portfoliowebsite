@@ -37,3 +37,4 @@
 .experience-content{width:min(760px,100%);margin-left:0;margin-right:auto}
 .experience-content h2{font:500 44px/1.19 var(--serif);letter-spacing:-1.5px;margin:0 0 24px}
 .experience-content h2 em{color:#a86f64}
+.experience-content{width:100%;margin-inline:auto}

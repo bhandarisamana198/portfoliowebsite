@@ -26,7 +26,7 @@ export default function Home() {
           <div className="hero-note"><span className="note-mark">✳</span><span>Currently training<br /><strong>Meta Ads · Google Ads · SEO</strong></span></div>
         </div>
         <div className="hero-art">
-          <Image className="profile-photo" src="/samana-about.jpg" alt="Samana smiling" fill priority sizes="(max-width: 800px) 100vw, 48vw" />
+          <Image className="profile-photo" src="/samana-profile-new.png" alt="Portrait of Samana" fill priority sizes="(max-width: 800px) 100vw, 48vw" />
           <div className="photo-caption"><span>HELLO, I’M SAMANA</span><span>CURIOUS BY NATURE <i>✳</i></span></div>
         </div>
         <div className="hero-bottom"><span>BASED IN KATHMANDU, NEPAL</span><span>MARKETING · WEB · ACCOUNTING EXPERIENCE</span><a href="#about">SCROLL TO EXPLORE ↓</a></div>
